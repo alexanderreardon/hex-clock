@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
 
 body {
     margin-top: 200px;
@@ -8,6 +8,11 @@ body {
 }
 
 #clock {
-    font-weight: 300;
     font-size: 100px;
+    font-weight: 100;
+}
+
+#hexcode {
+    font-size: 25px;
+    font-weight: 300;
 }
