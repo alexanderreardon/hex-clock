@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+body {
+    margin-top: 200px;
+    font-family: 'Lato', Arial;
+    text-align: center;
+    color: white;
+}
+
+#clock {
+    font-weight: 300;
+    font-size: 100px;
+}
