@@ -16,3 +16,34 @@ body {
     font-size: 25px;
     font-weight: 300;
 }
+
+#toggle-time {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#normal, #military {
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: pink;
+}
+
+@media screen and (max-width: 482px) {
+
+    #clock {
+        font-size: 20vmin;
+    }
+
+}
